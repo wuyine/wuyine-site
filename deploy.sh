@@ -3,7 +3,7 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t cleanwhite # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --theme='https://wuyine.github.io/' --baseUrl # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public

@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://wuyine.github.io/"
 title = "Wuyine Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "zh_CN"
