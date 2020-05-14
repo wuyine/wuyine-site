@@ -1,6 +1,6 @@
 baseurl = "https://wuyine.github.io/"
 title = "Wuyine Blog"
-theme = "hugo-theme-cleanwhite"
+theme = "cleanwhite"
 languageCode = "zh_CN"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
