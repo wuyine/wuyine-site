@@ -7,7 +7,6 @@ tags:         ["note"]
 image:        "/img/post-bg-lake.jpg"
 ---
 
-# 写在前面
 工作快四年一直都没写作的习惯，学习的东西都没记录下来，感觉到很长时间没有刚开始编程时的那种进步的快感了，所以搭建一个博客网站来提供一个写作的环境，和一个记录自己学习的地方，使用开hugo，也是为了快速的将这个博客网站搭建好。
 
 # Hugo 介绍
@@ -39,7 +38,7 @@ hugo new site sitename
 ## 添加一个主题
 1. 进入[主题选择页面](https://themes.gohugo.io/)下载自己喜欢的主题
 2. 将主题代码拷贝到项目下themes目录下
-3. 将theme = "ananke" 写到 config.toml配置文件中
+3. 将theme = "your themeName" 写到 config.toml配置文件中
 
 ## 写第一篇博客文章
 使用 `hugo new posts/my-first-post.md` 新建一个页面，可以看到在content目录下的posts目录下出现my-first-post.md文件，里面会有以下内容
