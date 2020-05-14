@@ -2,7 +2,6 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-rm -rf public
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
@@ -11,7 +10,6 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 cd public
 # Add changes to git.
 git add .
-
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
