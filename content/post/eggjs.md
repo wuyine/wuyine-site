@@ -3,9 +3,9 @@ title:       "Eggjs 使用记录"
 subtitle:    ""
 description: ""
 date:        2020-12-14
-author:      "wuyine"
-image:        "/img/post-bg-lake.jpg"
-tags:         ["note"]
+author:      "wuyine"
+image:       "/img/post-bg-lake.jpg"
+tags:        ["note"]
 categories:  ["Tech" ]
 ---
 

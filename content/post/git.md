@@ -1,19 +1,15 @@
 ---
-title: "git 使用记录"
+title: "CKEditor 空格问题"
 date: 2020-09-02
 tags: ["note"]
 categories: ["blog"]
 ---
 
-# git diff
+# CKEditor 空格问题
 
-```
-usage: git diff [<options>] [<commit> [<commit>]] [--] [<path>...]
-```
-可以看到 git 的使用方法，具体使用记录
+一直发现 CKEditor 的空格是&nbsp 和 空格间隔
 
-1. 比较当前分支与其他分支 ```git diff branch```
-2. 比较当前分支与其他分支的具体某个模板 ```git diff branch -- path```
-3. 比较任意分支 ```git diff branch branch```
-4. 以上 branch 都可以改成 commintId 
+1. html 中连续空格浏览器会合并渲染
+2. 连续 &nbsp; 无法换行
 
+所以使用空格 &nbsp; 间隔
